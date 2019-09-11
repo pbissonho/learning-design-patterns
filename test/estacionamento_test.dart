@@ -1,4 +1,4 @@
-import 'package:design_patterns/src/strategy.dart';
+import 'package:design_patterns/src/behavioral/strategy.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -21,9 +21,7 @@ void main() {
 
     TarifaEstacionamento tarifa = TarifaEstacionamento(calculoDiario, 10);
 
-
     var result = tarifa.valorConta();
     expect(16, result);
-
   });
 }

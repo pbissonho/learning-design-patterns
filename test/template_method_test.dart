@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:design_patterns/src/template_method.dart';
+import 'package:design_patterns/src/behavioral/template_method.dart';
 import 'package:test/test.dart';
 
 void main() {

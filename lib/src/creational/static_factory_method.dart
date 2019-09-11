@@ -1,4 +1,4 @@
-// Static Factory Pattern 
+// Static Factory Pattern
 
 class GeradorInAleatorio {
   final int min;
@@ -7,15 +7,14 @@ class GeradorInAleatorio {
   GeradorInAleatorio(this.min, this.max);
 
   // Static Factory Pattern
-  // Form that Dart provides 
+  // Form that Dart provides
   factory GeradorInAleatorio.entre(int min, int max) {
     return GeradorInAleatorio(min, max);
   }
-  
-  // Static Factory Pattern 
+
+  // Static Factory Pattern
   // Form used in other linquagens
-  static GeradorInAleatorio geradorInAleatorio_entre(int min, int max){
+  static GeradorInAleatorio geradorInAleatorio_entre(int min, int max) {
     return GeradorInAleatorio(min, max);
   }
 }
-

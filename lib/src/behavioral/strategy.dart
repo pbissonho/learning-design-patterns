@@ -1,4 +1,3 @@
-
 class TarifaEstacionamento {
   ICalculoValor calculo;
   double quantidadeDeHoras;
